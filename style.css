@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #151412;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*@keyframes headerani {
+      to {
+          background-position: left;
+      }
+  }*/
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  height: 20vh;
+  background-color: #151412;
+  /*background-size: 200%;
+  background-position: right;*/
+  /*background-image: linear-gradient(30deg, #766f5c, #eea84e, #d09b6b);*/
+  /*animation: headerani 30s linear alternate infinite;*/
+}
+body header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  letter-spacing: 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 5px solid #eea84e;
+  color: #eea84e;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Castellar";
+}
+body .box {
+  position: relative;
+  display: flow-root;
+  width: 80vw;
+  background-color: #292924;
+  border-radius: 10px;
+}
+body .box h1 {
+  font-size: 6rem;
+  font-family: "Castellar";
+  font-weight: 900;
+  color: #eea84e;
+  letter-spacing: 8px;
+  margin-top: 10px;
+}
+body .box h2 {
+  font-size: 3rem;
+  font-family: "Bell MT";
+  font-weight: 600;
+  color: #eea84e;
+  margin: 5px;
+}
+body .box .pic {
+  float: right;
+  /*clip-path: polygon(99% 17%, 78% 37%, 78% 64%, 94% 89%, 47% 78%, 10% 43%);*/
+  shape-outside: url(./chanel-4743979_1920-removebg-preview.png);
+}
+body .box p {
+  margin: 20px;
+  color: #d09b6b;
+  line-height: 30px;
+}
+body .box p::first-letter {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #eea84e;
+}
+body .box .pic2 {
+  float: left;
+  shape-outside: url(./makeup-brushes-824705_1920-removebg-preview.png);
+}
+body footer {
+  width: 100%;
+  bottom: 0;
+  height: 20vh;
+  background-color: #151412;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #eea84e;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
